@@ -58,11 +58,6 @@ npm run leo migration:run
 
 - **GitHub:** [https://github.com/leomark-sio/leo-backend](https://github.com/leomark-sio/leo-backend)
 
-## Contact
-
-- **Email:** [leomarksio386@gmail.com](mailto:leomarksio386@gmail.com)
-- **GitHub:** [https://github.com/leomark-sio](https://github.com/leomark-sio)
-
 ## License
 
 MIT
