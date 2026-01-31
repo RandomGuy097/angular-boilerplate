@@ -11,10 +11,10 @@
       "@lib/*": [
         "./src/lib/*"
       ],
-      "taon/src": [
+      "leo/src": [
         "./src/lib"
       ],
-      "taon/src/*": [
+      "leo/src/*": [
         "./src/lib/*"
       ]
     }

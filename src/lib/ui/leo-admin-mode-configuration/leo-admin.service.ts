@@ -22,7 +22,7 @@ export class LeoAdminService {
   //#endregion
 
   //#region fields & getters
-  public scrollableEnabled = false; // TOOD false by default
+  public scrollableEnabled = false; // TODO false by default
 
   private onEditMode = new Subject();
 
@@ -70,9 +70,6 @@ export class LeoAdminService {
   }
 
   setKeepWebsqlDbDataAfterReload(value: boolean) {
-    // if (value && !this.keepWebsqlDbDataAfterReload) {
-    //   this.firstTimeKeepWebsqlDbDataTrue = true;
-    // }
     this.keepWebsqlDbDataAfterReload = value;
   }
 

@@ -61,7 +61,7 @@ export * from './formly/fromly'; // @browser
 export * from './formly/type-from-entity'; // @browser
 export * from './helpers/class-helpers';
 export * from './helpers/clone-obj';
-export * from './helpers/taon-helpers';
+export * from './helpers/leo-helpers';
 export * from './orm/columns';
 export * from './realtime/realtime-client';
 export * from './realtime/realtime-core';
@@ -81,7 +81,7 @@ export * from './realtime/realtime-strategy/realtime-strategy-ipc';
 export * from './realtime/realtime-strategy/realtime-strategy-mock';
 export * from './realtime/realtime-strategy/realtime-strategy-socket-io';
 export * from './realtime/realtime-strategy/realtime-strategy';
-export * from './ui/taon-admin-mode-configuration/taon-admin.service'; // @browser
+export * from './ui/leo-admin-mode-configuration/leo-admin.service'; // @browser
 export * from './formly/formly-group-wrapper.component'; // @browser
 export * from './formly/formly-repeat.component'; // @browser
 
@@ -92,15 +92,15 @@ export type {
 
 // TODO export all things
 
-export namespace Taon {
+export namespace Leo {
   /**
-   * Remove global taon loader from env.ts [loading.preAngularBootstrap]
+   * Remove global loader from env.ts [loading.preAngularBootstrap]
    */
   export const removeLoader = (afterMS: number = 0): Promise<void> => {
     return new Promise<void>(resolve => {
       setTimeout(() => {
         (globalThis?.window as Window)?.document
-          ?.getElementById('taonpreloadertoremove')
+          ?.getElementById('leopreloadertoremove')
           ?.remove();
 
         const body = (globalThis?.window as Window)?.document?.body;

@@ -1,7 +1,7 @@
 import { Helpers } from 'tnp-core/src';
 
 import { ExpressRequest, ExpressResponse } from './express-types';
-import { LeoHelpers } from './helpers/taon-helpers';
+import { LeoHelpers } from './helpers/leo-helpers';
 import { Models } from './models';
 
 export const getResponseValue = <T>(

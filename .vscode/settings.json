@@ -172,9 +172,9 @@
     },
     {
       "fileMatch": [
-        "/taon.jsonc"
+        "/leo.jsonc"
       ],
-      "url": "./taon-config-standalone.schema.json"
+      "url": "./leo-config-standalone.schema.json"
     }
   ],
 

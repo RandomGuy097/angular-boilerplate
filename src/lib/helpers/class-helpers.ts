@@ -13,7 +13,7 @@ import { Models } from '../models';
 import { Symbols } from '../symbols';
 import { Validators } from '../validators';
 
-import { LeoHelpers } from './taon-helpers';
+import { LeoHelpers } from './leo-helpers';
 //#endregion
 
 export namespace ClassHelpers {

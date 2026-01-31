@@ -1,1 +1,1 @@
-export * from './taon-admin-mode-configuration'; // @browser
+export * from './leo-admin-mode-configuration'; // @browser

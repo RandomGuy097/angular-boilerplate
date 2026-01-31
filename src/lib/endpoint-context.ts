@@ -64,11 +64,11 @@ import type { ContextsEndpointStorage } from './endpoint-context-storage';
 import { EntityProcess } from './entity-process';
 import { getResponseValue } from './get-response-value';
 import { ClassHelpers } from './helpers/class-helpers';
-import { LeoHelpers } from './helpers/taon-helpers';
+import { LeoHelpers } from './helpers/leo-helpers';
 import { Models } from './models';
 import { RealtimeCore } from './realtime/realtime-core';
 import { Symbols } from './symbols';
-import { LeoAdminService } from './ui/taon-admin-mode-configuration/taon-admin.service'; // @browser
+import { LeoAdminService } from './ui/leo-admin-mode-configuration/leo-admin.service'; // @browser
 //#endregion
 
 let bodyParser: typeof import('body-parser');
@@ -2538,7 +2538,7 @@ export class EndpointContext {
               const m = /^data:(.+?);base64,(.+)$/.exec(img_base64);
               if (!m) {
                 throw new Error(
-                  `[taon - framework] Not a base64 image[${img_base64}]`,
+                  `[leo - framework] Not a base64 image[${img_base64}]`,
                 );
               }
               const [_, content_type, file_base64] = m;
@@ -3034,7 +3034,7 @@ export class EndpointContext {
         if (currentParam.paramType === 'Body') {
           if (currentParam.paramName) {
             if (ClassHelpers.getName(bodyObject) === 'FormData') {
-              throw new Error(`[taon - framework] Don use param names when posting / putting FormData.
+              throw new Error(`[leo - framework] Don use param names when posting / putting FormData.
               Use this:
 // ...
 (@Taon.Http.Param.Body() formData: FormData) ...

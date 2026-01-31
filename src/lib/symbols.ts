@@ -10,7 +10,7 @@ import { SYMBOL } from 'typescript-class-helpers/src';
  */
 class Realtime {
   NAMESPACE(contextName: string) {
-    return `${contextName}-taonRealtimeNsp`;
+    return `${contextName}-leoRealtimeNsp`;
   }
 
   TABLE_CHANGE(contextName: string, tableName: string) {

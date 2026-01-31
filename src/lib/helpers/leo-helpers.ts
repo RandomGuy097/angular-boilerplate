@@ -82,7 +82,6 @@ export namespace LeoHelpers {
     object: Object,
     waring = false,
   ): Object => {
-    // console.log('checking object', object)
     if (!_.isObject(object)) {
       if (waring) {
         console.error(
@@ -108,7 +107,6 @@ export namespace LeoHelpers {
       } catch (e) {
         isJson = false;
       }
-      // console.log(`key ${key} is json `, isJson)
       if (isJson) {
         res[key] = parseJSONwithStringJSONs(res[key], false);
       }
@@ -160,15 +158,13 @@ export namespace LeoHelpers {
   export const websqlMocks = headers => {
     const response: Express.Response = {
       status(status: any) {
-        // console.log({status})
         return {
           send(send: any) {
-            // console.log({status})
+            // noop
           },
         };
       },
       setHeader(key: string, value: any) {
-        // console.log('Dummy set header', arguments)
         headers[key] = value;
       },
     };
