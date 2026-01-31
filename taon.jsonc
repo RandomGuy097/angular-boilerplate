@@ -1,0 +1,100 @@
+{
+  "type": "isomorphic-lib",
+  "version": "v21",
+
+  "dependenciesNamesForNpmLib": ["tslib", "ora", "progress", "open", "cfonts"],
+
+  "appId": "dev.taon.app",
+
+  "autoReleaseConfigAllowedItems": [
+    {
+      "artifactName": "npm-lib-and-cli-tool",
+      "taskName": "npm",
+    },
+    {
+      "artifactName": "docs-webapp",
+      "releaseType": "static-pages",
+      "taskName": "mkdocs",
+    },
+  ],
+
+  "isomorphicDependenciesForNpmLib": ["tnp"],
+
+  // TODO change it to devDependencies
+  "peerDependenciesNamesForNpmLib": [
+    // "json10",
+    // "lodash-walk-object",
+    // "ng2-rest",
+    // "taon-type-sql",
+    // "taon-typeorm",
+    // "tnp-core",
+    // "typescript-class-helpers",
+    // "@angular/common",
+    // "@angular/core",
+    // "@ngx-formly/core",
+    // "axios",
+    // "body-parser",
+    // "cookie-parser",
+    // "cors",
+    // "electron",
+    // "express",
+    // "express-session",
+    // "form-data",
+    // "json5",
+    // "method-override",
+    // "multer",
+    // "reflect-metadata",
+    // "rxjs",
+    // "rxjs/operators",
+    // "socket.io",
+    // "socket.io-client",
+  ],
+
+  "removeAfterPullingFromGit": ["projects"],
+  "resources": ["README.md", "bin", "icon-menu-taon.svg"],
+  "shouldGenerateAutogenIndexFile": false,
+
+  "packageJsonOverride": {
+    "author": "Dariusz Filipiak",
+    "bugs": {
+      "url": "https://github.com/darekf77/taon/issues",
+    },
+
+    "contributes": {
+      "views": {
+        "projectsContainerTaon": [
+          {
+            "id": "projectsViewTaon",
+            "name": "Taon Projects",
+          },
+        ],
+      },
+      "viewsContainers": {
+        "activitybar": [
+          {
+            "icon": "./icon-menu-taon.svg",
+            "id": "projectsContainerTaon",
+            "title": "Taon Projects",
+          },
+        ],
+      },
+    },
+
+    "description": "Isomorphic solution for backend and frontend",
+
+    "homepage": "https://github.com/darekf77/taon#readme",
+
+    "license": "MIT",
+    "private": false,
+    "publisher": "taon-dev",
+
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/darekf77/taon.git",
+    },
+
+    "scripts": {
+      "mkdocs": "python3 -m mkdocs",
+    },
+  },
+}
