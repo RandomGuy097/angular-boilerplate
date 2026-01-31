@@ -85,7 +85,7 @@
     "tmp-*": true,
     "src/lib/env/**/*.*": true,
     ".firedev": true,
-    ".taon": true,
+    ".leo": true,
     ".tnp": true,
     "**/bin": true,
     "**/local_release": true,
@@ -98,7 +98,7 @@
     "**/tmp-*": true,
     "**/src/lib/env/**/*.*": true,
     "**/.firedev": true,
-    "**/.taon": true,
+    "**/.leo": true,
     "**/.tnp": true,
     "projects": true,
     "dist-*": true,
@@ -161,7 +161,7 @@
     "**/src/**"
   ],
 
-  "window.title": "npm/taon-dev/taon  [ ${activeEditorShort} ]",
+  "window.title": "npm/leomark-sio/leo-backend  [ ${activeEditorShort} ]",
 
   "json.schemas": [
     {

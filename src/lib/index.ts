@@ -188,111 +188,111 @@ export namespace Leo {
   };
 }
 
-//#region taon flattening map
-export const TAON_FLATTEN_MAPPING = {
-  'taon/src': {
+//#region leo flattening map
+export const LEO_FLATTEN_MAPPING = {
+  'leo/src': {
     // =====================
-    // Taon.Http.*
+    // Leo.Http.*
     // =====================
-    'Taon.Http.GET': 'GET',
-    'Taon.Http.POST': 'POST',
-    'Taon.Http.PUT': 'PUT',
-    'Taon.Http.DELETE': 'DELETE',
-    'Taon.Http.PATCH': 'PATCH',
-    'Taon.Http.HEAD': 'HEAD',
-    'Taon.Http.HTML': 'HTML',
-    'Taon.Http.Response': 'HttpResponse',
+    'Leo.Http.GET': 'GET',
+    'Leo.Http.POST': 'POST',
+    'Leo.Http.PUT': 'PUT',
+    'Leo.Http.DELETE': 'DELETE',
+    'Leo.Http.PATCH': 'PATCH',
+    'Leo.Http.HEAD': 'HEAD',
+    'Leo.Http.HTML': 'HTML',
+    'Leo.Http.Response': 'HttpResponse',
 
-    'Taon.Http.Param.Query': 'Query',
-    'Taon.Http.Param.Path': 'Path',
-    'Taon.Http.Param.Body': 'Body',
-    'Taon.Http.Param.Cookie': 'Cookie',
-    'Taon.Http.Param.Header': 'Header',
-
-    // =====================
-    // Taon.Base.*
-    // =====================
-    'Taon.Base.Controller': 'TaonBaseController',
-    'Taon.Base.CrudController': 'TaonBaseCrudController',
-    'Taon.Base.Entity': 'TaonBaseEntity',
-    'Taon.Base.AbstractEntity': 'TaonBaseAbstractEntity',
-    'Taon.Base.AbstractEntityOmitKeys': 'AbstractEntityOmitKeys',
-    'Taon.Base.Provider': 'TaonBaseProvider',
-    'Taon.Base.Class': 'TaonBaseClass',
-    'Taon.Base.Repository': 'TaonBaseRepository',
-    'Taon.Base.CustomRepository': 'TaonBaseCustomRepository',
-    'Taon.Base.SubscriberForEntity': 'TaonBaseSubscriberForEntity',
-    'Taon.Base.Migration': 'TaonBaseMigration',
-    'Taon.Base.Middleware': 'TaonBaseMiddleware',
-    'Taon.Base.AngularService': 'TaonBaseAngularService',
-    'Taon.Base.Context': 'TaonBaseContext',
+    'Leo.Http.Param.Query': 'Query',
+    'Leo.Http.Param.Path': 'Path',
+    'Leo.Http.Param.Body': 'Body',
+    'Leo.Http.Param.Cookie': 'Cookie',
+    'Leo.Http.Param.Header': 'Header',
 
     // =====================
-    // Taon.Controller.* (decorators)
+    // Leo.Base.*
     // =====================
-    'Taon.Controller': 'TaonController',
-    'Taon.Entity': 'TaonEntity',
-    'Taon.Provider': 'TaonProvider',
-    'Taon.Repository': 'TaonRepository',
-    'Taon.Subscriber': 'TaonSubscriber',
-    'Taon.Migration': 'TaonMigration',
-    'Taon.Middleware': 'TaonMiddleware',
+    'Leo.Base.Controller': 'TaonBaseController',
+    'Leo.Base.CrudController': 'TaonBaseCrudController',
+    'Leo.Base.Entity': 'TaonBaseEntity',
+    'Leo.Base.AbstractEntity': 'TaonBaseAbstractEntity',
+    'Leo.Base.AbstractEntityOmitKeys': 'AbstractEntityOmitKeys',
+    'Leo.Base.Provider': 'TaonBaseProvider',
+    'Leo.Base.Class': 'TaonBaseClass',
+    'Leo.Base.Repository': 'TaonBaseRepository',
+    'Leo.Base.CustomRepository': 'TaonBaseCustomRepository',
+    'Leo.Base.SubscriberForEntity': 'TaonBaseSubscriberForEntity',
+    'Leo.Base.Migration': 'TaonBaseMigration',
+    'Leo.Base.Middleware': 'TaonBaseMiddleware',
+    'Leo.Base.AngularService': 'TaonBaseAngularService',
+    'Leo.Base.Context': 'TaonBaseContext',
 
     // =====================
-    // Taon.Orm.*
+    // Leo.Controller.* (decorators)
     // =====================
-    'Taon.Orm.Repository': 'Repository',
-    'Taon.Orm.Connection': 'Connection',
+    'Leo.Controller': 'TaonController',
+    'Leo.Entity': 'TaonEntity',
+    'Leo.Provider': 'TaonProvider',
+    'Leo.Repository': 'TaonRepository',
+    'Leo.Subscriber': 'TaonSubscriber',
+    'Leo.Migration': 'TaonMigration',
+    'Leo.Middleware': 'TaonMiddleware',
+
+    // =====================
+    // Leo.Orm.*
+    // =====================
+    'Leo.Orm.Repository': 'Repository',
+    'Leo.Orm.Connection': 'Connection',
 
     // ListenEvent
-    'Taon.Orm.ListenEvent.AfterInsert': 'AfterInsert',
-    'Taon.Orm.ListenEvent.AfterLoad': 'AfterLoad',
-    'Taon.Orm.ListenEvent.AfterRecover': 'AfterRecover',
-    'Taon.Orm.ListenEvent.AfterRemove': 'AfterRemove',
-    'Taon.Orm.ListenEvent.AfterSoftRemove': 'AfterSoftRemove',
-    'Taon.Orm.ListenEvent.AfterUpdate': 'AfterUpdate',
-    'Taon.Orm.ListenEvent.BeforeInsert': 'BeforeInsert',
-    'Taon.Orm.ListenEvent.BeforeRecover': 'BeforeRecover',
-    'Taon.Orm.ListenEvent.BeforeRemove': 'BeforeRemove',
-    'Taon.Orm.ListenEvent.BeforeSoftRemove': 'BeforeSoftRemove',
-    'Taon.Orm.ListenEvent.BeforeUpdate': 'BeforeUpdate',
+    'Leo.Orm.ListenEvent.AfterInsert': 'AfterInsert',
+    'Leo.Orm.ListenEvent.AfterLoad': 'AfterLoad',
+    'Leo.Orm.ListenEvent.AfterRecover': 'AfterRecover',
+    'Leo.Orm.ListenEvent.AfterRemove': 'AfterRemove',
+    'Leo.Orm.ListenEvent.AfterSoftRemove': 'AfterSoftRemove',
+    'Leo.Orm.ListenEvent.AfterUpdate': 'AfterUpdate',
+    'Leo.Orm.ListenEvent.BeforeInsert': 'BeforeInsert',
+    'Leo.Orm.ListenEvent.BeforeRecover': 'BeforeRecover',
+    'Leo.Orm.ListenEvent.BeforeRemove': 'BeforeRemove',
+    'Leo.Orm.ListenEvent.BeforeSoftRemove': 'BeforeSoftRemove',
+    'Leo.Orm.ListenEvent.BeforeUpdate': 'BeforeUpdate',
 
     // Tree
-    'Taon.Orm.Tree.Children': 'TreeChildren',
-    'Taon.Orm.Tree.Parent': 'TreeParent',
+    'Leo.Orm.Tree.Children': 'TreeChildren',
+    'Leo.Orm.Tree.Parent': 'TreeParent',
 
     // Column
-    'Taon.Orm.Column.Generated': 'Generated',
-    'Taon.Orm.Column.Primary': 'PrimaryColumn',
-    'Taon.Orm.Column.Index': 'Index',
-    'Taon.Orm.Column.CreateDate': 'CreateDateColumn',
-    'Taon.Orm.Column.UpdateDate': 'UpdateDateColumn',
-    'Taon.Orm.Column.DeleteDate': 'DeleteDateColumn',
-    'Taon.Orm.Column.Custom': 'Column',
+    'Leo.Orm.Column.Generated': 'Generated',
+    'Leo.Orm.Column.Primary': 'PrimaryColumn',
+    'Leo.Orm.Column.Index': 'Index',
+    'Leo.Orm.Column.CreateDate': 'CreateDateColumn',
+    'Leo.Orm.Column.UpdateDate': 'UpdateDateColumn',
+    'Leo.Orm.Column.DeleteDate': 'DeleteDateColumn',
+    'Leo.Orm.Column.Custom': 'Column',
 
-    'Taon.Orm.Column.String': 'StringColumn',
-    'Taon.Orm.Column.String100': 'String100Column',
-    'Taon.Orm.Column.String45': 'String45Column',
-    'Taon.Orm.Column.String500': 'String500Column',
-    'Taon.Orm.Column.String200': 'String200Column',
-    'Taon.Orm.Column.Number': 'NumberColumn',
-    'Taon.Orm.Column.DecimalNumber': 'DecimalNumberColumn',
-    'Taon.Orm.Column.SimpleJson': 'SimpleJsonColumn',
-    'Taon.Orm.Column.Boolean': 'BooleanColumn',
-    'Taon.Orm.Column.DateTIme': 'DateTimeColumn',
+    'Leo.Orm.Column.String': 'StringColumn',
+    'Leo.Orm.Column.String100': 'String100Column',
+    'Leo.Orm.Column.String45': 'String45Column',
+    'Leo.Orm.Column.String500': 'String500Column',
+    'Leo.Orm.Column.String200': 'String200Column',
+    'Leo.Orm.Column.Number': 'NumberColumn',
+    'Leo.Orm.Column.DecimalNumber': 'DecimalNumberColumn',
+    'Leo.Orm.Column.SimpleJson': 'SimpleJsonColumn',
+    'Leo.Orm.Column.Boolean': 'BooleanColumn',
+    'Leo.Orm.Column.DateTIme': 'DateTimeColumn',
 
-    'Taon.Orm.Column.Version': 'VersionColumn',
-    'Taon.Orm.Column.Virtual': 'VirtualColumn',
+    'Leo.Orm.Column.Version': 'VersionColumn',
+    'Leo.Orm.Column.Virtual': 'VirtualColumn',
 
     // Join
-    'Taon.Orm.Join.Table': 'JoinTable',
-    'Taon.Orm.Join.Column': 'JoinColumn',
+    'Leo.Orm.Join.Table': 'JoinTable',
+    'Leo.Orm.Join.Column': 'JoinColumn',
 
     // Relation
-    'Taon.Orm.Relation.OneToMany': 'OneToMany',
-    'Taon.Orm.Relation.OneToOne': 'OneToOne',
-    'Taon.Orm.Relation.ManyToMany': 'ManyToMany',
-    'Taon.Orm.Relation.ManyToOne': 'ManyToOne',
+    'Leo.Orm.Relation.OneToMany': 'OneToMany',
+    'Leo.Orm.Relation.OneToOne': 'OneToOne',
+    'Leo.Orm.Relation.ManyToMany': 'ManyToMany',
+    'Leo.Orm.Relation.ManyToOne': 'ManyToOne',
   },
   'taon-storage/src': {
     // =====================

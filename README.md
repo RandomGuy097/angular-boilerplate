@@ -54,6 +54,10 @@ npm run leo migration:run
 └── docs/          # Documentation
 ```
 
+## Repository
+
+- **GitHub:** [https://github.com/leomark-sio/leo-backend](https://github.com/leomark-sio/leo-backend)
+
 ## Contact
 
 - **Email:** [leomarksio386@gmail.com](mailto:leomarksio386@gmail.com)
